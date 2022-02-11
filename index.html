@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essence UI</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- <link rel="stylesheet" href="/CSS/siderbar.css" /> -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <!-- <img src="assets/menu.svg" alt="menu"  class="menu-icon"> -->
+    <div class="landing-page">
+      <a href="#" class="menu-icon">
+        <img src="assets/menu.svg" alt="menu" />
+      </a>
+      <a href="#" class="close-icon">
+        <img src="assets/cross.svg" alt="close" />
+      </a>
+
+      <div class="navbar">
+        <span class="nav-items-ls">
+          <a href="#" class="nav-items">
+            <img src="assets/icon.svg" alt="mainIcon" class="nav-icons" />
+            <span class="nav-icon-name">Essence</span>
+          </a>
+          <a href="#" class="nav-items">Blogs</a>
+          <a href="./components/Alert/alert.html" class="nav-items"
+            >Documentation</a
+          >
+        </span>
+        <span class="nav-items-rs">
+          <a href="#" class="nav-items">1.0.0</a>
+          <a href="https://github.com/Ranjeetk489/EssenceUI" class="nav-items">
+            <img src="assets/github.svg" alt="github" class="nav-icons" />
+            <span class="nav-icon-name">Github</span>
+          </a>
+          <form action="submit" class="query-form">
+            <input
+              type="text"
+              class="nav-items query-bar"
+              placeholder="Search here"
+            />
+            <button class="search-btn" type="button">
+              <img
+                src="assets/search.svg"
+                alt="search"
+                class="nav-icons search-icon"
+              />
+            </button>
+          </form>
+        </span>
+      </div>
+
+      <!-- main content -->
+
+      <div class="main-content-container">
+        <div class="inner-container">
+          <p class="main-content-title">Essence UI</p>
+          <span class="main-content-secondary">
+            A <span class="highlight">highly responsive and versatile</span> UI
+            library that you always wanted
+          </span>
+          <div class="btns">
+            <a href="./components/Alert/alert.html" class="main-content-btn"
+              >Get Started</a
+            >
+            <a href="#" class="main-content-btn secondary-btn">Pricing</a>
+          </div>
+        </div>
+
+        <div class="main-content-icon-container">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player
+            src="https://assets1.lottiefiles.com/packages/lf20_pwt59zy3.json"
+            background="transparent"
+            speed="1.1"
+            style="width: 300px; height: 350px"
+            hover
+            autoplay
+          ></lottie-player>
+        </div>
+      </div>
+
+      <div class="feature-content">
+        <h2 class="main-content-features-tagline">
+          Powerful tools to help you build
+          <span class="content-features">all types</span> of user interfaces
+        </h2>
+        <div class="main-content-features">
+          <div class="main-content-feature">
+            <h3 class="flex-feature-title">Beautifully Designed</h3>
+            <span class="flex-feature-content"
+              >You can start your projects with Essence's Design or build your
+              own designs using the sophisticated theming features
+            </span>
+          </div>
+          <div class="main-content-feature">
+            <h3 class="flex-feature-title">Easily customized</h3>
+            <span class="flex-feature-content"
+              >Enjoy the power of our components without sacrificing the styles
+              you want. Tweak how your components render down to the very last
+              class.
+            </span>
+          </div>
+          <div class="main-content-feature">
+            <h3 class="flex-feature-title">Superb Documentation</h3>
+            <span class="flex-feature-content"
+              >Our docs were shaped throughout multiple iterations with the help
+              and experience of many fellow contributors.It's all there!
+            </span>
+          </div>
+          <div class="main-content-feature">
+            <h3 class="flex-feature-title">Accesible in Mind</h3>
+            <span class="flex-feature-content"
+              >We care about making it great for everyone. We improve
+              accessibility for all of our components constantly, helping you to
+              reach the largest audience possible
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+
+      <div class="footer">
+        <div class="ftr-newsletter">
+          <div class="ftr-newsletter-icon">
+            <h4 class="ftr-newsletter-content">
+              Join Our newsletter!
+              <img
+                src="assets/nwltr.svg"
+                alt="newsletter"
+                class="ftr-newsletter-content-icon"
+              />
+            </h4>
+            <p class="ftr-newsletter-content-sec">No spam, guarnteed</p>
+            <form action="" class="ftr-newsletter-form">
+              <label for="email-subscribe" class="ftr-newsletter-label"
+                ><div>Enter your Email:</div></label
+              >
+              <input
+                type="email"
+                class="ftr-newsletter-email-subscribe"
+                name="email"
+                placeholder="example@email.com"
+              />
+              <button class="ftr-newsletter-btn" tabindex="0" type="submit">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="ftr-aboutUs">
+          <p class="ftr-aboutUs-line">Get in touch with Us</p>
+          <a href="#" class="ftr-aboutUs-social">
+            <img
+              src="assets/mail.svg"
+              alt="mail"
+              class="ftr-aboutUs-mailIcon"
+            />
+          </a>
+          <a href="#" class="ftr-aboutUs-social">
+            <img
+              src="assets/twitter.svg"
+              alt="twitter"
+              class="ftr-aboutUs-twitterIcon"
+            />
+          </a>
+          <a href="#" class="ftr-aboutUs-social">
+            <img
+              src="assets/ig.svg"
+              alt="instagram"
+              class="ftr-aboutUs-twitterIcon"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/scripts/script.js"></script>
+</html>
