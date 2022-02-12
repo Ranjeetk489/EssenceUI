@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="alert.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav_container">
+      <a href="#" class="menu-icon">
+        <img src="/assets/menu.svg" alt="menu" />
+      </a>
+      <a href="#" class="close-icon">
+        <img src="/assets/cross.svg" alt="close" />
+      </a>
+
+      <div class="navbar">
+        <span class="nav-items-ls">
+          <a href="../../index.html" class="nav-items">
+            <img src="/assets/icon.svg" alt="mainIcon" class="nav-icons" />
+            <span class="nav-icon-name">Essence</span>
+          </a>
+          <a href="#" class="nav-items">Blogs</a>
+          <a href="/components/Alert/alert.html" class="nav-items">Documentation
+          </a>
+        </span>
+        <span class="nav-items-rs">
+          <a href="#" class="nav-items">1.0.0</a>
+          <a href="https://github.com/Ranjeetk489/EssenceUI" class="nav-items">
+            <img src="/assets/github.svg" alt="github" class="nav-icons" />
+            <span class="nav-icon-name">Github</span>
+          </a>
+          <form action="submit" class="query-form">
+            <input type="text" class="nav-items query-bar" placeholder="Search here" />
+            <button class="search-btn" type="button">
+              <img src="/assets/search.svg" alt="search" class="nav-icons search-icon" />
+            </button>
+          </form>
+        </span>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="sidebar">
+        <ui class="sidebar-items">
+          <li class="sidebar-item">
+            <button class="sidebar-item-btn" type="button">
+              <span class="sidebar-btn-book-icon"><img src="/assets/getStarted.svg" alt="icon"
+                  class="sidebar-btn-icon sidebar-book" /></span>
+              Getting Started
+              <span class="sidebar-btn-icon sidebar-arrow"><img src="/assets/sidebar/arrow.svg" alt=""
+                  class="sidebar-btn-icon sidebar-arrow" />
+              </span>
+              <span class="sidebar-btn-icon sidebar-arrowD"><img src="/assets/sidebar/arrowDown.svg" alt=""
+                  class="sidebar-btn-icon sidebar-arrowD" />
+              </span>
+            </button>
+            <ul class="siderbar-btn-contents sidebar-btn-section1">
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Installation</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Colors</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Typography</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Contribute</a>
+              </li>
+            </ul>
+          </li>
+          <ul class="sidebar-item">
+            <button class="sidebar-item-btn" id="btn1" type="button">
+              <span class="sidebar-btn-icon siderbar-Lslide"><img src="/assets/sidebar/Lslide.svg" alt="icon"
+                  class="sidebar-btn-icon siderbar-Lslide" /></span>
+              <span class="sidebar-btn-icon sidebar-Rslide"><img src="/assets/sidebar/Rslide.svg" alt=""
+                  class="sidebar-btn-icon sidebar-Rslide" />
+              </span>
+              Components
+            </button>
+            <ul class="siderbar-btn-contents sidebar-btn-section2">
+              <li class="sidebar-btn-content">
+                <a href="/components/Alert/alert.html" class="siderbar-btn">Alert</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="../Avatar/avatar.html" class="siderbar-btn">Avatar</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="../Badge/badge.html" class="siderbar-btn">Badge</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Button</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Card</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Image</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Input</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">List</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Navigation</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Navigation(II)</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Modal</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Rating</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Slider</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Grid</a>
+              </li>
+              <li class="sidebar-btn-content">
+                <a href="#" class="siderbar-btn">Toast</a>
+              </li>
+            </ul>
+          </ul>
+        </ui>
+      </div>
+
+      <!-- alert -->
+      <div class="main-component-container">
+        <div class="component-title">Alert</div>
+        <div class="component-desc">
+          An alert displays a short, important message in a way that attracts
+          the user's attention without interrupting the user's task.
+        </div>
+        <div class="alert info-bg">
+          <i class="fa-solid fa-circle-info alert-icon"></i>
+          This is an info alert- check it out!
+        </div>
+        <div class="alert success-bg">
+          <i class="fa-solid fa-circle-check alert-icon"></i>
+          This is a success alert - check it out!
+        </div>
+        <div class="alert warning-bg">
+          <i class="fa-solid fa-circle-exclamation alert-icon"></i>
+          This is a warning alert - check it out!
+        </div>
+        <div class="alert error-bg">
+          <i class="fas fa-exclamation-triangle alert-icon"></i>
+          This is a error alert - check it out!
+        </div>
+        <div class="alert-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=45px&ph=100px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520info-bg%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-info%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520This%2520is%2520an%2520info%2520alert-%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520success-bg%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-check%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520This%2520is%2520a%2520success%2520alert%2520-%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520warning-bg%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-exclamation%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520This%2520is%2520a%2520warning%2520alert%2520-%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520error-bg%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520This%2520is%2520a%2520error%2520alert%2520-%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E"
+            style="
+                width: 719px;
+                height: 533px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              " sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="ftr-newsletter">
+        <div class="ftr-newsletter-icon">
+          <h4 class="ftr-newsletter-content">
+            Join Our newsletter!
+            <img src="../../assets/nwltr.svg" alt="newsletter" class="ftr-newsletter-content-icon" />
+          </h4>
+          <p class="ftr-newsletter-content-sec">No spam, guarnteed</p>
+          <form action="" class="ftr-newsletter-form">
+            <label for="email-subscribe" class="ftr-newsletter-label">
+              <div>Enter your Email:</div>
+            </label>
+            <input type="email" class="ftr-newsletter-email-subscribe" name="email" placeholder="example@email.com" />
+            <button class="ftr-newsletter-btn" tabindex="0" type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="ftr-aboutUs">
+        <p class="ftr-aboutUs-line">Get in touch with Us</p>
+        <a href="#" class="ftr-aboutUs-social">
+          <img src="../../assets/mail.svg" alt="mail" class="ftr-aboutUs-mailIcon" />
+        </a>
+        <a href="#" class="ftr-aboutUs-social">
+          <img src="../../assets/twitter.svg" alt="twitter" class="ftr-aboutUs-twitterIcon" />
+        </a>
+        <a href="#" class="ftr-aboutUs-social">
+          <img src="../../assets/ig.svg" alt="instagram" class="ftr-aboutUs-twitterIcon" />
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="/scripts/script.js"></script>
+
+</html>
