@@ -52,7 +52,7 @@
   position: absolute;
   background: var(--error-color);
   height: 1.915rem;
-  top: -0.9rem;
+  top: -13px;
   right: 10px;
   width: 1.95rem;
   text-align: center;
