@@ -1,0 +1,83 @@
+
+.container {
+  background-color: var(--primary-color);
+}
+
+.component-title {
+  font-size: var(--font-size-1);
+  font-weight: var(--font-weight-1);
+  margin-bottom: 10px;
+  color: var(--tertiary-color);
+}
+.component-desc {
+  font-size: var(--font-size-5);
+  margin-bottom: 1rem;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+.component-container {
+  display: flex;
+  margin: 2.5rem 1rem;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4%;
+  padding: 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.component-subtitle {
+  font-size: var(--font-size-4);
+  margin: 3rem 0 1rem 0;
+  color: var(--tertiary-color);
+}
+.component-subtitle-desc {
+  font-size: var(--font-size-5);
+  margin-bottom: 1rem;
+}
+
+.info-bg {
+  background-color: var(--info-color);
+  color: var(--info-font-color);
+}
+.warning-bg {
+  background-color: var(--warning-color);
+  color: var(--warning-font-color);
+}
+.success-bg {
+  background-color: var(--success-color);
+  color: var(--success-font-color);
+}
+.error-bg {
+  background-color: var(--error-color);
+  color: var(--error-font-color);
+}
+
+.primary-bg {
+  background-color: var(--primary-color);
+}
+.secondary-bg {
+  background-color: var(--secondary-color);
+}
+.complementary-bg {
+  background-color: var(--complementary-color);
+}
+
+.gray-bg {
+  background-color: grey;
+}
+
+.large-text {
+  font-size: var(--font-size-4);
+}
+.medium-text {
+  font-size: var(--font-size-5);
+}
+
+.small-text {
+  font-size: var(--font-size-6);
+}
