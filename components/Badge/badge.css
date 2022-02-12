@@ -1,0 +1,64 @@
+.badge {
+  position: relative;
+}
+.badge-container {
+  display: flex;
+}
+.badge-online,
+.badge-dnd,
+.badge-offline {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  bottom: 6px;
+  right: 1rem;
+}
+.avatar {
+  width: 5.625rem;
+  border-radius: 50%;
+}
+
+.badge-notification i {
+  width: 6.25rem;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+.badge-notification .notification:after {
+  content: "99";
+  position: absolute;
+  background: var(--tertiary-color);
+  height: 1.25rem;
+  top: 1rem;
+  right: 1.5rem;
+  width: 1.35rem;
+  text-align: center;
+  line-height: 1.1rem;
+  font-size: 10px;
+  border-radius: 50%;
+  border: 1px solid var(--tertiary-color);
+}
+.badge-envelope {
+  width: 6.25rem;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+.badge-envelope .mail:after {
+  content: "77";
+  position: absolute;
+  background: var(--error-color);
+  height: 1.915rem;
+  top: -13px;
+  right: 10px;
+  width: 1.95rem;
+  text-align: center;
+  line-height: 1.8rem;
+  font-size: 12px;
+  border-radius: 50%;
+  color: var(--primary-color);
+  border: 1px solid var(--error-color);
+} 
