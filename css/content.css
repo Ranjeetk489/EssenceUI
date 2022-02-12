@@ -40,7 +40,7 @@
   line-height: 1.3rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   /* main-content */
 
   .main-content-container {
@@ -96,7 +96,7 @@
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 40.625rem) {
   /* Main Content */
 
   .main-content-container {
@@ -111,7 +111,6 @@
     margin-bottom: 1rem;
   }
   .main-content-secondary {
-    /* padding: 0 0 0 1.4rem; */
     font-weight: var(--font-weight-2);
     font-size: var(--font-size-4);
   }

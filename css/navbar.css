@@ -31,7 +31,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   /* navigation bar */
 
   .navbar {
@@ -63,7 +63,7 @@
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 40.625rem) {
   .navbar {
     justify-content: space-between;
     padding: 1.1rem;
