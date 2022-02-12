@@ -1,8 +1,5 @@
 .sidebar {
   width: 17%;
-
-  /* position: fixed; */
-
   max-height: calc(100vh - 9rem);
   overflow-y: auto;
 }
@@ -34,7 +31,6 @@
 }
 .sidebar-arrowD {
   transform: translate(2px, 3px);
-  /* display: none; */
 }
 
 .sidebar-btn-content {
