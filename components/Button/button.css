@@ -1,0 +1,71 @@
+.btn {
+  padding: 14px 1.4em;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border: none;
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-2);
+  transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+}
+
+.btn-primary,
+.btn-outline-primary:hover {
+  background-color: var(--tertiary-color);
+}
+
+.btn-secondary,
+.btn-outline-secondary:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.btn-info,
+.btn-outline-info:hover {
+  background-color: var(--info-color);
+  color: var(--info-text-color);
+}
+.btn-warning,
+.btn-outline-warning:hover {
+  background-color: var(--warning-color);
+  color: var(--warning-text-color);
+}
+.btn-success,
+.btn-outline-success:hover {
+  background-color: var(--success-color);
+  color: var(--success-text-color);
+}
+.btn-error,
+.btn-outline-error:hover {
+  background-color: var(--error-color);
+  color: var(--error-text-color);
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--tertiary-color);
+}
+.btn-outline-secondary {
+  border: 2px solid black;
+}
+.btn-outline-info {
+  border: 2px solid var(--info-color);
+}
+.btn-outline-warning {
+  border: 2px solid var(--warning-color);
+}
+.btn-outline-success {
+  border: 2px solid var(--success-color);
+}
+.btn-outline-error {
+  border: 2px solid var(--error-color);
+}
+
+.btn-fab {
+  border-radius: 71%;
+  height: 4.9rem;
+  background-color: none;
+}
+.btn-fab:hover {
+  background-color: var(--success-color);
+}
