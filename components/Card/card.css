@@ -1,0 +1,130 @@
+.card-container {
+  max-width: 23rem;
+  height: max-content;
+  margin: 1rem;
+  background: var(--white-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--dark-shadow);
+  position: relative;
+}
+
+.card {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, auto);
+  padding: 1.2rem;
+}
+
+.card-title {
+  grid-column: span 2;
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin: 10px 0 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.card-content {
+  margin: 10px 10px 0 10px;
+  font-size: var(--font-size-5);
+  line-height: 1.4rem;
+}
+
+.card-image {
+  width: 20rem;
+}
+
+.card-close {
+  position: absolute;
+  z-index: 22;
+  top: 1.5rem;
+  left: 18.2rem;
+  width: min-content;
+  color: white;
+  cursor: pointer;
+}
+
+.card-header {
+  display: flex;
+  grid-column: span 2;
+  margin-left: 5rem;
+}
+
+.card-svg {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 85%;
+}
+
+.overlay {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  top: 8.8rem;
+  left: 1.4rem;
+}
+
+.card-hz-header {
+  padding: 2em;
+  background-color: var(--warning-color);
+  height: 12.5em;
+}
+.card-subtitle {
+  padding: 8px;
+}
+.card-controls {
+  /* margin-left: 1em; */
+  margin-top: 0.6em;
+}
+
+.card-control {
+  padding: 1em;
+  border-radius: 50%;
+}
+.card-control:hover {
+  background-color: var(--primary-color);
+  transition: all 0.4s ease-in-out;
+}
+.card-hz-svg {
+  height: 12.5rem;
+}
+
+.ecom-card {
+  padding: 1.4em;
+}
+.ecom-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.ecom-img {
+  height: 21.875rem;
+}
+
+.link-title:hover {
+  color: blue;
+}
+.card-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3%;
+  align-items: center;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+.card-rating {
+  padding: 3px;
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+}
+.card-bought {
+  color: gray;
+}
+.strikeoff {
+  text-decoration: line-through;
+  color: grey;
+}
+.card-discount {
+  font-weight: 700;
+  color: green;
+}

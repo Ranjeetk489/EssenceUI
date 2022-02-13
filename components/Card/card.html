@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essence UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="card.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav_container">
+            <a href="#" class="menu-icon">
+                <img src="/assets/menu.svg" alt="menu" />
+            </a>
+            <a href="#" class="close-icon">
+                <img src="/assets/cross.svg" alt="close" />
+            </a>
+
+            <div class="navbar">
+                <span class="nav-items-ls">
+                    <a href="../../index.html" class="nav-items">
+                        <img src="/assets/icon.svg" alt="mainIcon" class="nav-icons" />
+                        <span class="nav-icon-name">Essence</span>
+                    </a>
+                    <a href="#" class="nav-items">Blogs</a>
+                    <a href="/components/Alert/alert.html" class="nav-items">Documentation
+                    </a>
+                </span>
+                <span class="nav-items-rs">
+                    <a href="#" class="nav-items">1.0.0</a>
+                    <a href="https://github.com/Ranjeetk489/EssenceUI" class="nav-items">
+                        <img src="/assets/github.svg" alt="github" class="nav-icons" />
+                        <span class="nav-icon-name">Github</span>
+                    </a>
+                    <form action="submit" class="query-form">
+                        <input type="text" class="nav-items query-bar" placeholder="Search here" />
+                        <button class="search-btn" type="button">
+                            <img src="/assets/search.svg" alt="search" class="nav-icons search-icon" />
+                        </button>
+                    </form>
+                </span>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="sidebar">
+                <ui class="sidebar-items">
+                    <li class="sidebar-item">
+                        <button class="sidebar-item-btn" type="button">
+                            <span class="sidebar-btn-book-icon"><img src="/assets/getStarted.svg" alt="icon"
+                                    class="sidebar-btn-icon sidebar-book" /></span>
+                            Getting Started
+                            <span class="sidebar-btn-icon sidebar-arrow"><img src="/assets/sidebar/arrow.svg" alt=""
+                                    class="sidebar-btn-icon sidebar-arrow" />
+                            </span>
+                            <span class="sidebar-btn-icon sidebar-arrowD"><img src="/assets/sidebar/arrowDown.svg"
+                                    alt="" class="sidebar-btn-icon sidebar-arrowD" />
+                            </span>
+                        </button>
+                        <ul class="siderbar-btn-contents sidebar-btn-section1">
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Installation</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Colors</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Typography</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Contribute</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <ul class="sidebar-item">
+                        <button class="sidebar-item-btn" id="btn1" type="button">
+                            <span class="sidebar-btn-icon siderbar-Lslide"><img src="/assets/sidebar/Lslide.svg"
+                                    alt="icon" class="sidebar-btn-icon siderbar-Lslide" /></span>
+                            <span class="sidebar-btn-icon sidebar-Rslide"><img src="/assets/sidebar/Rslide.svg" alt=""
+                                    class="sidebar-btn-icon sidebar-Rslide" />
+                            </span>
+                            Components
+                        </button>
+                        <ul class="siderbar-btn-contents sidebar-btn-section2">
+                            <li class="sidebar-btn-content">
+                                <a href="/components/Alert/alert.html" class="siderbar-btn">Alert</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Avatar/avatar.html" class="siderbar-btn">Avatar</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Badge/badge.html" class="siderbar-btn">Badge</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Button/button.html" class="siderbar-btn">Button</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Card/card.html" class="siderbar-btn">Card</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Image/image.html" class="siderbar-btn">Image</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Input/input.html" class="siderbar-btn">Input</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../List/list.html" class="siderbar-btn">List</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Navigation/navigation.html" class="siderbar-btn">Navigation</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Modal/modal.html" class="siderbar-btn">Modal</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Rating/rating.html" class="siderbar-btn">Rating</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Slider/slider.html" class="siderbar-btn">Slider</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Grid/grid.html" class="siderbar-btn">Grid</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Toast/toast.html" class="siderbar-btn">Toast</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </ui>
+            </div>
+
+
+            <!-- card -->
+            <div class="main-component-container">
+                <div class="component-title">Cards</div>
+                <div class="component-desc">Cards are surfaces that display content and actions on a single topic.
+
+                    They should be easy to scan for relevant and actionable information. Elements, like text and images,
+                    should be placed on them in a way that clearly indicates hierarchy.
+                </div>
+                <div class="component-subtitle">Basic card</div>
+                <div class="component-subtitle-desc">Although cards can support multiple actions, UI controls, and an
+                    overflow menu, use restraint and remember that cards are entry points to more complex and detailed
+                    information.
+                </div>
+                <div class="component-container">
+                    <div class="card-container">
+                        <div class="card">
+                            <p class="card-title">Poetry</p>
+                            <p class="card-content">
+                                Poetry is a type of literature based on the interplay of words and
+                                rhythm. It often employs rhyme and meter (a set of rules governing the
+                                number and arrangement of syllables in each line). In poetry, words
+                                are strung together to form sounds, images, and ideas that might be
+                                too complex or abstract to describe directly.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2522%253EPoetry%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Poetry%2520is%2520a%2520type%2520of%2520literature%2520based%2520on%2520the%2520interplay%2520of%2520words%2520and%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rhythm.%2520It%2520often%2520employs%2520rhyme%2520and%2520meter%2520%28a%2520set%2520of%2520rules%2520governing%2520the%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520number%2520and%2520arrangement%2520of%2520syllables%2520in%2520each%2520line%29.%2520In%2520poetry%252C%2520words%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520are%2520strung%2520together%2520to%2520form%2520sounds%252C%2520images%252C%2520and%2520ideas%2520that%2520might%2520be%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520too%2520complex%2520or%2520abstract%2520to%2520describe%2520directly.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 813px; height: 454px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="component-subtitle">Media Card</div>
+                <div class="component-subtitle-desc">Example of a card using an image to reinforce the content.</div>
+                <div class="component-container">
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1980&q=80"
+                                alt="card" class="card-image">
+                            <p class="card-title">Poetry</p>
+                            <p class="card-content">
+                                Poetry is a type of literature based on the interplay of words and
+                                rhythm. It often employs rhyme and meter (a set of rules governing the
+                                number and arrangement of syllables in each line). In poetry, words
+                                are strung together to form sounds, images, and ideas that might be
+                                too complex or abstract to describe directly.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522link%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card%2522%2520class%253D%2522card-imag%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2522%253EPoetry%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Poetry%2520is%2520a%2520type%2520of%2520literature%2520based%2520on%2520the%2520interplay%2520of%2520words%2520and%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rhythm.%2520It%2520often%2520employs%2520rhyme%2520and%2520meter%2520%28a%2520set%2520of%2520rules%2520governing%2520the%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520number%2520and%2520arrangement%2520of%2520syllables%2520in%2520each%2520line%29.%2520In%2520poetry%252C%2520words%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520are%2520strung%2520together%2520to%2520form%2520sounds%252C%2520images%252C%2520and%2520ideas%2520that%2520might%2520be%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520too%2520complex%2520or%2520abstract%2520to%2520describe%2520directly.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 813px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="component-subtitle">Dismissable Card</div>
+                <div class="component-subtitle-desc">Example of a card using an image to reinforce the content and an
+                    icon to dismiss content</div>
+                <div class="component-container">
+                    <div class="card-container">
+                        <div class="card">
+                            <span class="card-close">
+                                <i class="fa-solid fa-2x fa-rectangle-xmark"></i>
+                            </span>
+                            <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1980&q=80"
+                                alt="card" class="card-image" />
+                            <p class="card-title">Poetry</p>
+                            <p class="card-content">
+                                Poetry is a type of literature based on the interplay of words and
+                                rhythm. It often employs rhyme and meter (a set of rules governing the
+                                number and arrangement of syllables in each line). In poetry, words
+                                are strung together to form sounds, images, and ideas that might be
+                                too complex or abstract to describe directly.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-2x%2520fa-rectangle-xmark%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522link%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card%2522%2520class%253D%2522card-image%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2522%253EPoetry%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Poetry%2520is%2520a%2520type%2520of%2520literature%2520based%2520on%2520the%2520interplay%2520of%2520words%2520and%250A%2520%2520%2520%2520%2520%2520%2520%2520rhythm.%2520It%2520often%2520employs%2520rhyme%2520and%2520meter%2520%28a%2520set%2520of%2520rules%2520governing%2520the%250A%2520%2520%2520%2520%2520%2520%2520%2520number%2520and%2520arrangement%2520of%2520syllables%2520in%2520each%2520line%29.%2520In%2520poetry%252C%2520words%250A%2520%2520%2520%2520%2520%2520%2520%2520are%2520strung%2520together%2520to%2520form%2520sounds%252C%2520images%252C%2520and%2520ideas%2520that%2520might%2520be%250A%2520%2520%2520%2520%2520%2520%2520%2520too%2520complex%2520or%2520abstract%2520to%2520describe%2520directly.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                    style="width: 764px; height: 500px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="component-subtitle">Social Card</div>
+                <div class="component-subtitle-desc">Example of a card using an image to reinforce the content and an
+                    icon representing the avatar and other details such as name etc.</div>
+                <div class="component-container">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#" class="card-svg">
+                                    <img src="https://i.postimg.cc/PPjtvt6J/charles-deluvio-k-Vg2-DQTAK7c-unsplash.jpg' border='0' alt='charles-deluvio-k-Vg2-DQTAK7c-unsplash"
+                                        title="" class="card-svg" />
+                                </a>
+                                <p class="card-title">Poetry</p>
+                            </div>
+                            <div class="card-content">
+                                <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1980&q=80"
+                                    alt="card" class="card-image" />
+                                <p class="card-content">
+                                    Poetry is a type of literature based on the interplay of words and
+                                    rhythm. It often employs rhyme and meter (a set of rules governing
+                                    the number and arrangement of syllables in each line). In poetry,
+                                    words are strung together to form sounds, images, and ideas that
+                                    might be too complex or abstract to describe directly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-svg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fsvgshare.com%252Fi%252Fe8B.svg%2522%2520title%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2522%253EPoetry%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522link%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card%2522%2520class%253D%2522card-image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Poetry%2520is%2520a%2520type%2520of%2520literature%2520based%2520on%2520the%2520interplay%2520of%2520words%2520and%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rhythm.%2520It%2520often%2520employs%2520rhyme%2520and%2520meter%2520%28a%2520set%2520of%2520rules%2520governing%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520the%2520number%2520and%2520arrangement%2520of%2520syllables%2520in%2520each%2520line%29.%2520In%2520poetry%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520words%2520are%2520strung%2520together%2520to%2520form%2520sounds%252C%2520images%252C%2520and%2520ideas%2520that%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520might%2520be%2520too%2520complex%2520or%2520abstract%2520to%2520describe%2520directly.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 798px; height: 640px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="component-subtitle">Overlay Card</div>
+                <div class="component-subtitle-desc">Example of a card using an image to reinforce the content and
+                    overlaying text to higlight the genre.
+
+                </div>
+                <div class="component-container">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-overlay">
+                                <p class="card-title overlay">Poetry</p>
+                                <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1980&q=80"
+                                    alt="card" class="card-image" />
+                                <p class="card-content">
+                                    Poetry is a type of literature based on the interplay of words and
+                                    rhythm. It often employs rhyme and meter (a set of rules governing the
+                                    number and arrangement of syllables in each line). In poetry, words
+                                    are strung together to form sounds, images, and ideas that might be
+                                    too complex or abstract to describe directly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2520overlay%2522%253EPoetry%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522link%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card%2522%2520class%253D%2522card-image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Poetry%2520is%2520a%2520type%2520of%2520literature%2520based%2520on%2520the%2520interplay%2520of%2520words%2520and%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rhythm.%2520It%2520often%2520employs%2520rhyme%2520and%2520meter%2520%28a%2520set%2520of%2520rules%2520governing%2520the%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520number%2520and%2520arrangement%2520of%2520syllables%2520in%2520each%2520line%29.%2520In%2520poetry%252C%2520words%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520are%2520strung%2520together%2520to%2520form%2520sounds%252C%2520images%252C%2520and%2520ideas%2520that%2520might%2520be%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520too%2520complex%2520or%2520abstract%2520to%2520describe%2520directly.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 847px; height: 500px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="component-subtitle">UI Card</div>
+                <div class="component-subtitle-desc">Example of a UI card having different responsive controls and
+                    avatar of artits
+                </div>
+                <div class="component-container">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-hz-header">
+                                <div class="card-title">Don't you wait </div>
+                                <div class="card-subtitle">Mac Miller</div>
+                                <div class="card-controls">
+                                    <i class="fa-solid fa-backward card-control"></i>
+                                    <i class="fa-solid fa-play card-control"></i>
+                                    <i class="fa-solid fa-forward card-control"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="card-hz-img">
+                                <img src="https://i.postimg.cc/PPjtvt6J/charles-deluvio-k-Vg2-DQTAK7c-unsplash.jpg' border='0' alt='charles-deluvio-k-Vg2-DQTAK7c-unsplash"
+                                    title="" class="card-hz-svg" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-hz-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EDon%27t%2520you%2520wait%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253EMac%2520Miller%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-controls%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-backward%2520card-control%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-play%2520card-control%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-forward%2520card-control%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-hz-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522link%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520title%253D%2522%2522%2520class%253D%2522card-hz-svg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 670px; height: 504px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <div class="component-subtitle">Ecom Card</div>
+                <div class="component-subtitle-desc">Example of a ECOM card replicating listing of a product with icons,
+                    svg etc.</div>
+
+                <div class="component-container">
+                    <div class="card-container ecom-card">
+                        <div class="card-details">
+                            <a href="#" class="card-link">
+                                <img src="https://i.postimg.cc/25xRksPk/sincerely-media-CXYPfveiuis-unsplash-1.jpg"
+                                    alt="" class="card-image ecom-img" />
+                            </a>
+                        </div>
+                        <a href="" class="card-title link-title">Milk and Honey</a>
+                        <div class="card-subtitle">English, paperback, Rupi Kaur</div>
+                        <div class="card-flex">
+                            <div class="card-rating">
+                                4.1<i class="fa-regular fa-star card-rating"></i>
+                            </div>
+                            <p class="card-bought">(89)</p>
+                        </div>
+                        <div class="card-flex">
+                            <div class="card-disprice">
+                                <i class="fa-solid fa-indian-rupee-sign"></i>266
+                            </div>
+                            <div class="card-price strikeoff">
+                                <i class="fa-solid fa-indian-rupee-sign strikeoff"></i>899
+                            </div>
+                            <div class="card-discount">66%</div>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2520ecom-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522link%2522%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image%2520ecom-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522card-title%2520link-title%2522%253EMilk%2520and%2520Honey%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253EEnglish%252C%2520paperback%252C%2520Rupi%2520Kaur%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25204.1%253Ci%2520class%253D%2522fa-regular%2520fa-star%2520card-rating%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-bought%2522%253E%2889%29%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-disprice%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-indian-rupee-sign%2522%253E%253C%252Fi%253E266%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2520strikeoff%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-indian-rupee-sign%2520strikeoff%2522%253E%253C%252Fi%253E899%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-discount%2522%253E66%2525%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 712px; height: 684px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="ftr-newsletter">
+                <div class="ftr-newsletter-icon">
+                    <h4 class="ftr-newsletter-content">
+                        Join Our newsletter!
+                        <img src="../../assets/nwltr.svg" alt="newsletter" class="ftr-newsletter-content-icon" />
+                    </h4>
+                    <p class="ftr-newsletter-content-sec">No spam, guarnteed</p>
+                    <form action="" class="ftr-newsletter-form">
+                        <label for="email-subscribe" class="ftr-newsletter-label">
+                            <div>Enter your Email:</div>
+                        </label>
+                        <input type="email" class="ftr-newsletter-email-subscribe" name="email"
+                            placeholder="example@email.com" />
+                        <button class="ftr-newsletter-btn" tabindex="0" type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="ftr-aboutUs">
+                <p class="ftr-aboutUs-line">Get in touch with Us</p>
+                <a href="#" class="ftr-aboutUs-social">
+                    <img src="../../assets/mail.svg" alt="mail" class="ftr-aboutUs-mailIcon" />
+                </a>
+                <a href="#" class="ftr-aboutUs-social">
+                    <img src="../../assets/twitter.svg" alt="twitter" class="ftr-aboutUs-twitterIcon" />
+                </a>
+                <a href="#" class="ftr-aboutUs-social">
+                    <img src="../../assets/ig.svg" alt="instagram" class="ftr-aboutUs-twitterIcon" />
+                </a>
+            </div>
+        </div>
+</body>
+
+</html>
