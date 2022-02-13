@@ -1,0 +1,50 @@
+.input {
+  padding: 12px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--grey-color);
+  outline: none;
+  font-size: var(--font-size-5);
+}
+.input::placeholder {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-3);
+}
+.input-label {
+  margin-bottom: 7px;
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-2);
+}
+.focus-field:focus {
+  border: 2px solid var(--info-color);
+  color: var(--info-color);
+}
+.enabled-field {
+  border: 2px solid var(--success-color);
+  color: var(--success-color);
+}
+.success-pwd {
+  display: flex;
+  flex-direction: column;
+}
+
+.pwd-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.msg {
+  margin-top: 10px;
+  font-weight: var(--font-weight-3);
+}
+.error-hl {
+  color: red;
+}
+.success-hl {
+  color: green;
+}
+.error-box {
+  border: 1px solid red;
+}
+.success-box {
+  border: 0.4px solid green;
+}
