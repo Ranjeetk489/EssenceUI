@@ -1,0 +1,38 @@
+.typog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.text {
+  margin-bottom: 1rem;
+}
+.text1 {
+  font-size: var(--font-size-1);
+}
+.text2 {
+  font-size: var(--font-size-2);
+}
+.text3 {
+  font-size: var(--font-size-3);
+}
+.text4 {
+  font-size: var(--font-size-4);
+}
+.text5 {
+  font-size: var(--font-size-5);
+}
+.text6 {
+  font-size: var(--font-size-6);
+}
+.text7 {
+  font-size: var(--font-size-7);
+}
+.fw-900 {
+  font-weight: var(--font-weight-1);
+}
+.fw-700 {
+  font-weight: var(--font-weight-2);
+}
+.fw-500 {
+  font-weight: var(--font-weight-3);
+}
