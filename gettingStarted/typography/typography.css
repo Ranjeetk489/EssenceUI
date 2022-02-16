@@ -1,0 +1,41 @@
+.typog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.heading {
+  margin-bottom: 1rem;
+}
+.text {
+  margin-bottom: 1rem;
+}
+.large-text {
+  font-size: var(--font-size-1);
+}
+.semiLarge-text {
+  font-size: var(--font-size-2);
+}
+.medium-text {
+  font-size: var(--font-size-3);
+}
+.semiMedium-text {
+  font-size: var(--font-size-4);
+}
+.small-text {
+  font-size: var(--font-size-5);
+}
+.semiSmall-text {
+  font-size: var(--font-size-6);
+}
+.smallest-text {
+  font-size: var(--font-size-7);
+}
+.fw-900 {
+  font-weight: var(--font-weight-1);
+}
+.fw-700 {
+  font-weight: var(--font-weight-2);
+}
+.fw-500 {
+  font-weight: var(--font-weight-3);
+}

@@ -1,0 +1,43 @@
+.palette-container {
+  margin-top: 3rem;
+  display: flex;
+  padding: 2rem;
+  background-color: var(--white-color);
+}
+.clr-box {
+  height: 6.5rem;
+  width: 8rem;
+  font-weight: var(--font-weight-1);
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clr-box1 {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.clr-box2 {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
+.clr-box3 {
+  background-color: var(--tertiary-color);
+}
+.clr-box4 {
+  background-color: var(--complementary-color);
+}
+.clr-box5 {
+  background-color: var(--error-color);
+}
+.clr-box6 {
+  background-color: var(--warning-color);
+}
+.clr-box7 {
+  background-color: var(--success-color);
+}
+.clr-box8 {
+  background-color: var(--info-color);
+}
