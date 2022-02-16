@@ -4,7 +4,7 @@
   padding: 2rem;
   background-color: var(--white-color);
 }
-.box {
+.clr-box {
   height: 6.5rem;
   width: 8rem;
   font-weight: var(--font-weight-1);
@@ -15,29 +15,29 @@
   align-items: center;
 }
 
-.box1 {
+.clr-box1 {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
-.box2 {
+.clr-box2 {
   background-color: var(--secondary-color);
   color: var(--white-color);
 }
-.box3 {
+.clr-box3 {
   background-color: var(--tertiary-color);
 }
-.box4 {
+.clr-box4 {
   background-color: var(--complementary-color);
 }
-.box5 {
+.clr-box5 {
   background-color: var(--error-color);
 }
-.box6 {
+.clr-box6 {
   background-color: var(--warning-color);
 }
-.box7 {
+.clr-box7 {
   background-color: var(--success-color);
 }
-.box8 {
+.clr-box8 {
   background-color: var(--info-color);
 }
