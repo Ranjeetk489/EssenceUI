@@ -3,28 +3,31 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
+.heading {
+  margin-bottom: 1rem;
+}
 .text {
   margin-bottom: 1rem;
 }
-.text1 {
+.large-text {
   font-size: var(--font-size-1);
 }
-.text2 {
+.semiLarge-text {
   font-size: var(--font-size-2);
 }
-.text3 {
+.medium-text {
   font-size: var(--font-size-3);
 }
-.text4 {
+.semiMedium-text {
   font-size: var(--font-size-4);
 }
-.text5 {
+.small-text {
   font-size: var(--font-size-5);
 }
-.text6 {
+.semiSmall-text {
   font-size: var(--font-size-6);
 }
-.text7 {
+.smallest-text {
   font-size: var(--font-size-7);
 }
 .fw-900 {
