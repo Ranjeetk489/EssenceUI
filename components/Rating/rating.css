@@ -1,0 +1,22 @@
+.rating-container {
+  display: flex;
+}
+.rating {
+  margin-left: 12px;
+}
+
+.rating-container {
+  width: 180px;
+}
+
+.rating-star {
+  cursor: pointer;
+  color: #dabd18b2;
+}
+.act-star {
+  background-color: var(--warning-color);
+}
+
+.fa-2x:hover {
+  color: var(--tertiary-color);
+}
