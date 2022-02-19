@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essence UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="navigation.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav_container">
+            <a href="#" class="menu-icon">
+                <img src="/assets/menu.svg" alt="menu" />
+            </a>
+            <a href="#" class="close-icon">
+                <img src="/assets/cross.svg" alt="close" />
+            </a>
+
+            <div class="navbar">
+                <span class="nav-items-ls">
+                    <a href="../../index.html" class="nav-items">
+                        <img src="/assets/icon.svg" alt="mainIcon" class="nav-icons" />
+                        <span class="nav-icon-name">Essence</span>
+                    </a>
+                    <a href="#" class="nav-items">Blogs</a>
+                    <a href="/components/Alert/alert.html" class="nav-items">Documentation
+                    </a>
+                </span>
+                <span class="nav-items-rs">
+                    <a href="#" class="nav-items">1.0.0</a>
+                    <a href="https://github.com/Ranjeetk489/EssenceUI" class="nav-items">
+                        <img src="/assets/github.svg" alt="github" class="nav-icons" />
+                        <span class="nav-icon-name">Github</span>
+                    </a>
+                    <form action="submit" class="query-form">
+                        <input type="text" class="nav-items query-bar" placeholder="Search here" />
+                        <button class="search-btn" type="button">
+                            <img src="/assets/search.svg" alt="search" class="nav-icons search-icon" />
+                        </button>
+                    </form>
+                </span>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="sidebar">
+                <ui class="sidebar-items">
+                    <li class="sidebar-item">
+                        <button class="sidebar-item-btn" type="button">
+                            <span class="sidebar-btn-book-icon"><img src="/assets/getStarted.svg" alt="icon"
+                                    class="sidebar-btn-icon sidebar-book" /></span>
+                            Getting Started
+                            <span class="sidebar-btn-icon sidebar-arrow"><img src="/assets/sidebar/arrow.svg" alt=""
+                                    class="sidebar-btn-icon sidebar-arrow" />
+                            </span>
+                            <span class="sidebar-btn-icon sidebar-arrowD"><img src="/assets/sidebar/arrowDown.svg"
+                                    alt="" class="sidebar-btn-icon sidebar-arrowD" />
+                            </span>
+                        </button>
+                        <ul class="siderbar-btn-contents sidebar-btn-section1">
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Installation</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Colors</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Typography</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Contribute</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <ul class="sidebar-item">
+                        <button class="sidebar-item-btn" id="btn1" type="button">
+                            <span class="sidebar-btn-icon siderbar-Lslide"><img src="/assets/sidebar/Lslide.svg"
+                                    alt="icon" class="sidebar-btn-icon siderbar-Lslide" /></span>
+                            <span class="sidebar-btn-icon sidebar-Rslide"><img src="/assets/sidebar/Rslide.svg" alt=""
+                                    class="sidebar-btn-icon sidebar-Rslide" />
+                            </span>
+                            Components
+                        </button>
+                        <ul class="siderbar-btn-contents sidebar-btn-section2">
+                            <li class="sidebar-btn-content">
+                                <a href="/components/Alert/alert.html" class="siderbar-btn">Alert</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Avatar/avatar.html" class="siderbar-btn">Avatar</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Badge/badge.html" class="siderbar-btn">Badge</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Button/button.html" class="siderbar-btn">Button</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Card/card.html" class="siderbar-btn">Card</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Image/image.html" class="siderbar-btn">Image</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Input/input.html" class="siderbar-btn">Input</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../List/list.html" class="siderbar-btn">List</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Navigation/navigation.html" class="siderbar-btn">Navigation</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Modal/modal.html" class="siderbar-btn">Modal</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Rating/rating.html" class="siderbar-btn">Rating</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Slider/slider.html" class="siderbar-btn">Slider</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Grid/grid.html" class="siderbar-btn">Grid</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Toast/toast.html" class="siderbar-btn">Toast</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </ui>
+            </div>
+            <div class="main-component-container">
+                <div class="component-title">Navigation</div>
+                <div class="component-desc">
+                    The use of website navigation tools allow for a website's visitors to experience the site with the
+                    most efficiency and the least incompetence. A website navigation system is analogous to a road map
+                </div>
+                <div class="component-subtitle">Basic Navigation</div>
+                <div class="component-subtitle-desc">Snippet Showing basic navigation between three categories.</div>
+                <div class="component-container">
+                    <div class="cm-nav-container">
+                        <div class="cm-nav-item">
+                            <span class="cm-nav-icon"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                            <div class="cm-nav-title">Recent</div>
+                        </div>
+                        <div class="cm-nav-item">
+                            <span class="cm-nav-icon"><i class="fa-solid fa-heart"></i></span>
+                            <div class="cm-nav-title">Favorites</div>
+                        </div>
+                        <div class="cm-nav-item">
+                            <span class="cm-nav-icon"><i class="fa-solid fa-message"></i></span>
+                            <div class="cm-nav-title">Messages</div>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522cm-nav-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cm-nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522cm-nav-icon%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-clock-rotate-left%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cm-nav-title%2522%253ERecent%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cm-nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522cm-nav-icon%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cm-nav-title%2522%253EFavorites%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cm-nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522cm-nav-icon%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-message%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cm-nav-title%2522%253EMessages%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 847px; height: 414px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="component-subtitle">Responsive Navigation</div>
+                <div class="component-subtitle-desc">Snippet Showing Responsive navigation </div>
+                <div class="component-container cm-nav-res">
+                    <div class="cm-nav-item ">
+                        <span class="cm-nav-link "><a href="#" class="cm-nav-link">Home</a></span>
+                    </div>
+                    <div class="cm-nav-container">
+                        <span class="cm-nav-item"><a href="#" class="cm-nav-link">Docs</a></span>
+                        <span class="cm-nav-item"><a href="#" class="cm-nav-link">Github</a></span>
+                        <span class="cm-nav-item"><a href="#" class="cm-nav-link">Contact</a></span>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component-container%2520cm-nav-res%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cm-nav-item%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522cm-nav-link%2520%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522cm-nav-link%2522%253EHome%253C%252Fa%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cm-nav-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522cm-nav-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522cm-nav-link%2522%253EDocs%253C%252Fa%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522cm-nav-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522cm-nav-link%2522%253EGithub%253C%252Fa%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522cm-nav-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522cm-nav-link%2522%253EContact%253C%252Fa%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 830px; height: 334px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="component-subtitle">Hamburger Navigation</div>
+                <div class="component-subtitle-desc">Snippet Showing Hamburger navigation which can be useful for small
+                    screen size devices. </div>
+                <div class="component-container cm-nav-res">
+                    <div class="cm-nav-item ">
+                        <span class="cm-nav-link "><a href="#" class="cm-nav-link">Home</a></span>
+                    </div>
+                    <span class="cm-nav-item"><i class="fa-solid fa-bars ham-icon"></i></span>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component-container%2520cm-nav-res%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522cm-nav-link%2520%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522cm-nav-link%2522%253EHome%253C%252Fa%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522cm-nav-item%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-bars%2520ham-icon%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    style="width: 779px; height: 214px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="component-subtitle">Navigation with Submenu</div>
+                <div class="component-subtitle-desc">Snippet Showing navigation having links with submenus </div>
+                <ul class="component-container cm-nav-res menu">
+                    <li class="menu-item active"> <a class="menu-link" href="#">Home</a></li>
+                    <li class="menu-item"> <a class="menu-link" href="#">Services <i
+                                class="fa-solid fa-caret-down cm-nav-icon"></i></a>
+                        <ul class="submenu-items">
+                            <li class="submenu-item"><a href="" class="submenu-link">Website Development</a></li>
+                            <li class="submenu-item"><a href="" class="submenu-link">Mobile application</a></li>
+                            <li class="submenu-item"><a href="" class="submenu-link">Database Management</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a class="menu-link" href="#">About Us</a>
+
+                    </li>
+                    <li class="menu-item"><a class="menu-link" href="#">Contact<i
+                                class="fa-solid fa-caret-down cm-nav-icon"></i></a>
+                        <ul class="submenu-items">
+                            <li class="submenu-item"><a href="" class="submenu-link">Instagram<i
+                                        class="fa-brands fa-instagram cm-nav-icon"></i></a></li>
+                            <li class="submenu-item"><a href="" class="submenu-link">Twitter<i
+                                        class="fa-brands fa-twitter-square cm-nav-icon"></i></a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522component-container%2520cm-nav-res%2520menu%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522menu-item%2520active%2522%253E%2520%253Ca%2520class%253D%2522menu-link%2522%2520href%253D%2522%2523%2522%253EHome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522menu-item%2522%253E%2520%253Ca%2520class%253D%2522menu-link%2522%2520href%253D%2522%2523%2522%253EServices%2520%253Ci%2520class%253D%2522fa-solid%2520fa-caret-down%2520cm-nav-icon%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522submenu-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522submenu-item%2522%253E%253Ca%2520href%253D%2522%2522%2520class%253D%2522submenu-link%2522%253EWebsite%2520Development%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522submenu-item%2522%253E%253Ca%2520href%253D%2522%2522%2520class%253D%2522submenu-link%2522%253EMobile%2520application%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522submenu-item%2522%253E%253Ca%2520href%253D%2522%2522%2520class%253D%2522submenu-link%2522%253EDatabase%2520Management%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522menu-item%2522%253E%253Ca%2520class%253D%2522menu-link%2522%2520href%253D%2522%2523%2522%253EAbout%2520Us%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522menu-item%2522%253E%253Ca%2520class%253D%2522menu-link%2522%2520href%253D%2522%2523%2522%253EContact%253Ci%2520class%253D%2522fa-solid%2520fa-caret-down%2520cm-nav-icon%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522submenu-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522submenu-item%2522%253E%253Ca%2520href%253D%2522%2522%2520class%253D%2522submenu-link%2522%253EInstagram%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fa-brands%2520fa-instagram%2520cm-nav-icon%2522%253E%253C%252Fi%253E%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522submenu-item%2522%253E%253Ca%2520href%253D%2522%2522%2520class%253D%2522submenu-link%2522%253ETwitter%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fa-brands%2520fa-twitter-square%2520cm-nav-icon%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
+                    style="width: 724px; height: 579px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="ftr-newsletter">
+                <div class="ftr-newsletter-icon">
+                    <h4 class="ftr-newsletter-content">
+                        Join Our newsletter!
+                        <img src="../../assets/nwltr.svg" alt="newsletter" class="ftr-newsletter-content-icon" />
+                    </h4>
+                    <p class="ftr-newsletter-content-sec">No spam, guaranteed</p>
+                    <form action="" class="ftr-newsletter-form">
+                        <label for="email-subscribe" class="ftr-newsletter-label">
+                            <div>Enter your Email:</div>
+                        </label>
+                        <input type="email" class="ftr-newsletter-email-subscribe" name="email"
+                            placeholder="example@email.com" />
+                        <button class="ftr-newsletter-btn" tabindex="0" type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="ftr-aboutUs">
+                <p class="ftr-aboutUs-line">Get in touch with Us</p>
+                <a href="#" class="ftr-aboutUs-social">
+                    <img src="../../assets/mail.svg" alt="mail" class="ftr-aboutUs-mailIcon" />
+                </a>
+                <a href="#" class="ftr-aboutUs-social">
+                    <img src="../../assets/twitter.svg" alt="twitter" class="ftr-aboutUs-twitterIcon" />
+                </a>
+                <a href="#" class="ftr-aboutUs-social">
+                    <img src="../../assets/ig.svg" alt="instagram" class="ftr-aboutUs-twitterIcon" />
+                </a>
+            </div>
+        </div>
+</body>
+<script src="../../scripts/script.js"></script>
+
+</html>

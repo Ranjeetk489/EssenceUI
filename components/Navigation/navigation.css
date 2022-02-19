@@ -1,0 +1,69 @@
+.cm-nav-container {
+  display: flex;
+  flex-direction: row;
+}
+.cm-nav-item {
+  padding: 1rem;
+  font-size: var(--font-size-5);
+  text-align: center;
+  background-color: var(--white-color);
+  cursor: pointer;
+}
+.cm-nav-item:hover {
+  background-color: rgb(177, 171, 171);
+}
+.cm-nav-title {
+  margin-top: 1rem;
+}
+.cm-nav-res {
+  display: flex;
+  justify-content: space-between;
+}
+.cm-nav-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: var(--font-weight-2);
+}
+.cm-nav-icon {
+  margin-left: 6px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.menu-item {
+  list-style: none;
+  padding: 4rem;
+  color: var(--seconday-color);
+}
+.menu-link {
+  text-decoration: none;
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-1);
+  color: var(--seconday-color);
+}
+
+.submenu-items {
+  position: absolute;
+  display: none;
+  list-style: none;
+  padding: 5px;
+}
+.submenu-item {
+  margin: 7px;
+}
+.submenu-link {
+  text-decoration: none;
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-1);
+  color: var(--info-font-color);
+}
+.menu-item:hover .submenu-items {
+  background-color: var(--info-color);
+  display: block;
+  color: var(--error-color);
+}
+.menu-link:hover {
+  color: var(--tertiary-color);
+}
