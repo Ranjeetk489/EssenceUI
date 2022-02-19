@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essence UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="rating.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav_container">
+            <a href="#" class="menu-icon">
+                <img src="/assets/menu.svg" alt="menu" />
+            </a>
+            <a href="#" class="close-icon">
+                <img src="/assets/cross.svg" alt="close" />
+            </a>
+
+            <div class="navbar">
+                <span class="nav-items-ls">
+                    <a href="../../index.html" class="nav-items">
+                        <img src="/assets/icon.svg" alt="mainIcon" class="nav-icons" />
+                        <span class="nav-icon-name">Essence</span>
+                    </a>
+                    <a href="#" class="nav-items">Blogs</a>
+                    <a href="/components/Alert/alert.html" class="nav-items">Documentation
+                    </a>
+                </span>
+                <span class="nav-items-rs">
+                    <a href="#" class="nav-items">1.0.0</a>
+                    <a href="https://github.com/Ranjeetk489/EssenceUI" class="nav-items">
+                        <img src="/assets/github.svg" alt="github" class="nav-icons" />
+                        <span class="nav-icon-name">Github</span>
+                    </a>
+                    <form action="submit" class="query-form">
+                        <input type="text" class="nav-items query-bar" placeholder="Search here" />
+                        <button class="search-btn" type="button">
+                            <img src="/assets/search.svg" alt="search" class="nav-icons search-icon" />
+                        </button>
+                    </form>
+                </span>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="sidebar">
+                <ui class="sidebar-items">
+                    <li class="sidebar-item">
+                        <button class="sidebar-item-btn" type="button">
+                            <span class="sidebar-btn-book-icon"><img src="/assets/getStarted.svg" alt="icon"
+                                    class="sidebar-btn-icon sidebar-book" /></span>
+                            Getting Started
+                            <span class="sidebar-btn-icon sidebar-arrow"><img src="/assets/sidebar/arrow.svg" alt=""
+                                    class="sidebar-btn-icon sidebar-arrow" />
+                            </span>
+                            <span class="sidebar-btn-icon sidebar-arrowD"><img src="/assets/sidebar/arrowDown.svg"
+                                    alt="" class="sidebar-btn-icon sidebar-arrowD" />
+                            </span>
+                        </button>
+                        <ul class="siderbar-btn-contents sidebar-btn-section1">
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Installation</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Colors</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Typography</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="#" class="siderbar-btn">Contribute</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <ul class="sidebar-item">
+                        <button class="sidebar-item-btn" id="btn1" type="button">
+                            <span class="sidebar-btn-icon siderbar-Lslide"><img src="/assets/sidebar/Lslide.svg"
+                                    alt="icon" class="sidebar-btn-icon siderbar-Lslide" /></span>
+                            <span class="sidebar-btn-icon sidebar-Rslide"><img src="/assets/sidebar/Rslide.svg" alt=""
+                                    class="sidebar-btn-icon sidebar-Rslide" />
+                            </span>
+                            Components
+                        </button>
+                        <ul class="siderbar-btn-contents sidebar-btn-section2">
+                            <li class="sidebar-btn-content">
+                                <a href="/components/Alert/alert.html" class="siderbar-btn">Alert</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Avatar/avatar.html" class="siderbar-btn">Avatar</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Badge/badge.html" class="siderbar-btn">Badge</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Button/button.html" class="siderbar-btn">Button</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Card/card.html" class="siderbar-btn">Card</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Image/image.html" class="siderbar-btn">Image</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Input/input.html" class="siderbar-btn">Input</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../List/list.html" class="siderbar-btn">List</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Navigation/navigation.html" class="siderbar-btn">Navigation</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Modal/modal.html" class="siderbar-btn">Modal</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Rating/rating.html" class="siderbar-btn">Rating</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Slider/slider.html" class="siderbar-btn">Slider</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Grid/grid.html" class="siderbar-btn">Grid</a>
+                            </li>
+                            <li class="sidebar-btn-content">
+                                <a href="../Toast/toast.html" class="siderbar-btn">Toast</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </ui>
+            </div>
+            <div class="main-component-container">
+                <div class="component-title">Rating</div>
+                <div class="component-desc">
+                    Rating are heart of all types of service providing websites that are used to receive customer
+                    feedback of served prodcuts/services
+                </div>
+                <div class="component-subtitle">Interactive Rating</div>
+                <div class="component-subtitle-desc">Snippet Showing basic Rating component</div>
+                <div class="component-container">
+                    <div class="rating-container">
+                        <span class="rating-star"><i class="fa-regular fa-2x fa-star"></i></span>
+                        <span class="rating-star"><i class="fa-regular fa-2x fa-star"></i></span>
+                        <span class="rating-star"><i class="fa-regular fa-2x fa-star"></i></span>
+                        <span class="rating-star"><i class="fa-regular fa-2x fa-star"></i></span>
+                        <span class="rating-star"><i class="fa-regular fa-2x fa-star"></i></span>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-star%2522%253E%253Ci%2520class%253D%2522fa-regular%2520fa-2x%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-star%2522%253E%253Ci%2520class%253D%2522fa-regular%2520fa-2x%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-star%2522%253E%253Ci%2520class%253D%2522fa-regular%2520fa-2x%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-star%2522%253E%253Ci%2520class%253D%2522fa-regular%2520fa-2x%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-star%2522%253E%253Ci%2520class%253D%2522fa-regular%2520fa-2x%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    style="width: 724px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="component-subtitle">Interactive Rating</div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=javascript&width=680&ds=true&dsyoff=38px&dsblur=68px&wc=true&wa=true&pv=30px&ph=43px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=let%2520rating%2520%253D%2520document.querySelectorAll%28%2522.rating%2522%29%253B%250Aconst%2520starRating%2520%253D%2520%255B...document.getElementsByClassName%28%2522fa-star%2522%29%255D%253B%250Alet%2520prevIndex%2520%253D%25200%253B%250A%250AstarRating.forEach%28function%2520%28item%252C%2520index%29%2520%257B%250A%2520%2520%2520%2520let%2520items%2520%253D%2520starRating%253B%250A%2520%2520%2520%2520item.addEventListener%28%2522click%2522%252C%2520function%2520%28%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520console.log%28index%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520if%2520%28index%2520%253E%2520prevIndex%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items.slice%280%252C%2520index%2520%252B%25201%29.forEach%28function%2520%28item%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520item.classList.remove%28%2522fa-regular%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520item.classList.add%28%2522fa-solid%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%2520else%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items.forEach%28function%2520%28item%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520item.classList.remove%28%2522fa-solid%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520item.classList.add%28%2522fa-regular%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520items.slice%280%252C%2520index%2520%252B%25201%29.forEach%28function%2520%28item%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520item.classList.add%28%2522fa-solid%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%2520%2520%2520%2520prevIndex%2520%253D%2520index%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520console.log%28prevIndex%29%253B%250A%2520%2520%2520%2520%257D%29%253B%250A%257D%29%253B"
+                    style="width: 672px; height: 639px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="ftr-newsletter">
+                <div class="ftr-newsletter-icon">
+                    <h4 class="ftr-newsletter-content">
+                        Join Our newsletter!
+                        <img src="../../assets/nwltr.svg" alt="newsletter" class="ftr-newsletter-content-icon" />
+                    </h4>
+                    <p class="ftr-newsletter-content-sec">No spam, guaranteed</p>
+                    <form action="" class="ftr-newsletter-form">
+                        <label for="email-subscribe" class="ftr-newsletter-label">
+                            <div>Enter your Email:</div>
+                        </label>
+                        <input type="email" class="ftr-newsletter-email-subscribe" name="email"
+                            placeholder="example@email.com" />
+                        <button class="ftr-newsletter-btn" tabindex="0" type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="ftr-aboutUs">
+                <p class="ftr-aboutUs-line">Get in touch with Us</p>
+                <a href="#" class="ftr-aboutUs-social">
+                    <img src="../../assets/mail.svg" alt="mail" class="ftr-aboutUs-mailIcon" />
+                </a>
+                <a href="#" class="ftr-aboutUs-social">
+                    <img src="../../assets/twitter.svg" alt="twitter" class="ftr-aboutUs-twitterIcon" />
+                </a>
+                <a href="#" class="ftr-aboutUs-social">
+                    <img src="../../assets/ig.svg" alt="instagram" class="ftr-aboutUs-twitterIcon" />
+                </a>
+            </div>
+        </div>
+</body>
+<script src="rating.js"></script>
+
+</html>
