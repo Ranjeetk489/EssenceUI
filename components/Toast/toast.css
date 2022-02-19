@@ -1,0 +1,37 @@
+.btn {
+  padding: 0.875em 1.4em;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border: none;
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-2);
+  transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  border: 2px solid var(--tertiary-color);
+}
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  border: 0;
+}
+.toast-container {
+  display: none;
+}
+.toast-msg {
+  background-color: var(--success-color);
+  padding: 9px;
+  border-radius: 4rem;
+  position: fixed;
+  top: 15vh;
+  left: 40vw;
+}
+.close-ic {
+  margin-left: 8rem;
+  color: var(--success-font-color);
+}
+.success-ic {
+  margin-right: 8px;
+  color: var(--success-font-color);
+}
