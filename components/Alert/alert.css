@@ -3,9 +3,7 @@
   margin: 10px;
   padding: 1rem;
   border-radius: var(--border-radius);
-  color: var(--white-color);
   cursor: pointer;
-  background-color: white;
   width: 85%;
 }
 .alert-icon {
